@@ -4,14 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "lint": "eslint **/*.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dinaAlsaid/notes.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Dina Alsaid",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/dinaAlsaid/notes/issues"
@@ -20,5 +22,7 @@
   "dependencies": {
     "minimist": "^1.2.5"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "eslint": "^7.11.0"
+  }
 }
