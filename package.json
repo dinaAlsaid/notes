@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --coverage --verbose",
     "start": "node index.js",
-    "lint": "eslint **/*.js"
+    "lint": "eslint lib/notes.js lib/input.js index.js __tests__/notes.test.js __tests__/input.test.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +23,7 @@
     "minimist": "^1.2.5"
   },
   "devDependencies": {
-    "eslint": "^7.11.0"
+    "eslint": "^7.11.0",
+    "jest": "^26.5.3"
   }
 }

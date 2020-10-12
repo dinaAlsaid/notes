@@ -1,6 +1,6 @@
-# LAB - 01 : Node Ecosystem
+# LAB - 02 : Classes, Inheritance,functional programming
 
-## Phase 1
+## Phase 2
 
 ### Author: Dina Alsaid
 
