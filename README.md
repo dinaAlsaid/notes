@@ -1,6 +1,6 @@
 # LAB - 01 : Node Ecosystem
 
-## Phase 1 
+## Phase 1
 
 ### Author: Dina Alsaid
 
