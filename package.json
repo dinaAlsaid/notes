@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest --coverage --verbose",
     "start": "node index.js",
-    "lint": "eslint **/*.js"
+    "lint": "eslint lib/notes.js lib/input.js index.js __tests__/notes.test.js __tests__/input.test.js"
   },
   "repository": {
     "type": "git",
