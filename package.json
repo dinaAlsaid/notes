@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest --coverage --verbose",
     "start": "node index.js",
-    "lint": "eslint lib/notes.js lib/input.js index.js __tests__/notes.test.js __tests__/input.test.js"
+    "lint": "eslint '**/*.js' --fix"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,9 @@
   },
   "homepage": "https://github.com/dinaAlsaid/notes#readme",
   "dependencies": {
-    "minimist": "^1.2.5"
+    "dotenv": "^8.2.0",
+    "minimist": "^1.2.5",
+    "mongoose": "^5.10.9"
   },
   "devDependencies": {
     "eslint": "^7.11.0",
