@@ -1,16 +1,22 @@
-# LAB - 02 : Classes, Inheritance,functional programming
+# LAB - 03 : Data Modeling & NoSQL Databases
 
-## Phase 2
+## Phase 3
 
 ### Author: Dina Alsaid
 
 ### Setup
 
+#### Links and Resources
+
+- [github actions](https://github.com/dinaAlsaid/notes/actions)
+
 #### `.env` requirements
+
+- MONGODB_URI=mongodb://localhost:27017/notedb
 
 #### Running the app
 
-- `npm start` **note**: if it doesn't work use `node index.js --add ""`
+- `npm start`
 
 #### Tests
 
