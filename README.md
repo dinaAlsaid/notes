@@ -1,10 +1,12 @@
-# LAB - 03 : Data Modeling & NoSQL Databases
+# LAB - 04 : Advanced Mongo/Mongoose
 
-## Phase 3
+## Phase 4
 
 ### Author: Dina Alsaid
 
 ### Setup
+
+- npm install @code-fellows/supergoose
 
 #### Links and Resources
 
@@ -28,3 +30,7 @@
 (Created with [diagrams](https://app.diagrams.net/))
 
 ![UML Diagram](UML.png)
+
+### notes 
+
+Lab 4 is not finished: faced a problem with promise handling when testing
