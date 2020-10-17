@@ -6,6 +6,7 @@
 
 ### Setup
 
+- npm install mongoose
 - npm install @code-fellows/supergoose
 
 #### Links and Resources

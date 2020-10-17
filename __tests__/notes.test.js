@@ -12,6 +12,8 @@ describe('Notes module', () => {
       testObj.action = 'invalid';
       testObj.payload = true;
       const testNote = new Notes(testObj);
+      testNote.execute();
+
       expect(console.log).not.toHaveBeenCalled();
     });
   });
@@ -22,6 +24,8 @@ describe('Notes module', () => {
       testObj2.action = 'invalid';
       testObj2.payload = 'anything';
       const testNote = new Notes(testObj2);
+      testNote.execute();
+
       expect(console.log).not.toHaveBeenCalled();
     });
   });
@@ -32,6 +36,7 @@ describe('Notes module', () => {
       testObj.action = 'add';
       testObj.payload = 'something valid';
       const testNote = new Notes(testObj);
+      testNote.execute();
       expect(console.log).toHaveBeenCalled();
     });
   });
